@@ -1,9 +1,10 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          Net
-%define         _subclass       Socket
+%define		_class		Net
+%define		_subclass	Socket
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_pearname} - Network Socket Interface
-Summary(pl):	%{_pearname} - Interfejs socketów sieciowych
+
+Summary:	%{_pearname} - network socket interface
+Summary(pl):	%{_pearname} - interfejs gniazd sieciowych
 Name:		php-pear-%{_pearname}
 Version:	1.0.1
 Release:	4
