@@ -2,11 +2,11 @@
 %define         _class          Net
 %define         _subclass       Socket
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	Net_Socket - Network Socket Interface
-Summary(pl):	Net_Socket - Interfejs socketów sieciowych
+Summary:	%{_class}_%{_subclass} - Network Socket Interface
+Summary(pl):	%{_class}_%{_subclass} - Interfejs socketów sieciowych
 Name:		php-pear-%{_pearname}
 Version:	1.0.1
-Release:	2
+Release:	3
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
