@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - network socket interface
 Summary(pl):	%{_pearname} - interfejs gniazd sieciowych
 Name:		php-pear-%{_pearname}
-Version:	1.0.3
+Version:	1.0.4
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	fc024ef77670895b863a98d5861b07fd
+# Source0-md5:	40310e0b6ae6dc47b802a5feba8f5c0e
 URL:		http://pear.php.net/package/Net_Socket/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
