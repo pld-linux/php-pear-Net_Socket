@@ -32,11 +32,9 @@ kolejno¶ci adresów sieciowych).
 
 %install
 rm -rf $RPM_BUILD_ROOT
-cd %{_pearname}-%{version}
-
 install -d $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}
 
-install *.php			$RPM_BUILD_ROOT%{php_pear_dir}/%{_class}
+install %{_pearname}-%{version}*.php $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
