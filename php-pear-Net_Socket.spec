@@ -20,6 +20,10 @@ and non-blocking operation, with different reading and writing modes
 byte-order ip addresses).
 
 %description -l pl
+Net_Socket to klasa z interfejsem do gniazd TCP. Umo¿liwia operacje
+blokuj±ce i nieblokuj±ce, z ró¿nymi trybami odczytu i zapisu
+(bajtowym, blokowym, liniowym i specjalnymi formatami, jak bajty w
+kolejno¶ci adresów sieciowych).
 
 %prep
 %setup -q -c
@@ -27,7 +31,6 @@ byte-order ip addresses).
 %install
 rm -rf $RPM_BUILD_ROOT
 cd %{_pearname}-%{version}
-rm -rf $RPM_BUILD_ROOT
 
 install -d $RPM_BUILD_ROOT%{php_pear_dir}/Net
 
