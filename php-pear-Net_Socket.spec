@@ -25,7 +25,7 @@ and non-blocking operation, with different reading and writing modes
 (byte-wise, block-wise, line-wise and special formats like network
 byte-order ip addresses).
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Net_Socket to klasa z interfejsem do gniazd TCP. Umo¿liwia operacje
