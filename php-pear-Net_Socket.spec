@@ -1,6 +1,7 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Net
 %define		_subclass	Socket
+%define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - network socket interface
@@ -10,8 +11,8 @@ Version:	1.0.1
 Release:	4
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-# Source0-md5:	f2b5f199a8586b855a549c2dccfbbd81
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	f2b5f199a8586b855a549c2dccfbbd81
 URL:		http://pear.php.net/package/Net_Socket/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
@@ -24,11 +25,15 @@ and non-blocking operation, with different reading and writing modes
 (byte-wise, block-wise, line-wise and special formats like network
 byte-order ip addresses).
 
+This class has in PEAR status: %{_status}.
+
 %description -l pl
 Net_Socket to klasa z interfejsem do gniazd TCP. Umo¿liwia operacje
 blokuj±ce i nieblokuj±ce, z ró¿nymi trybami odczytu i zapisu
 (bajtowym, blokowym, liniowym i specjalnymi formatami, jak bajty w
 kolejno¶ci adresów sieciowych).
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
