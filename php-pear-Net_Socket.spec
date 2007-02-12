@@ -4,7 +4,7 @@
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - network socket interface
-Summary(pl):	%{_pearname} - interfejs gniazd sieciowych
+Summary(pl.UTF-8):   %{_pearname} - interfejs gniazd sieciowych
 Name:		php-pear-%{_pearname}
 Version:	1.0.6
 Release:	4
@@ -28,11 +28,11 @@ byte-order ip addresses).
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Net_Socket to klasa z interfejsem do gniazd TCP. Umo¿liwia operacje
-blokuj±ce i nieblokuj±ce, z ró¿nymi trybami odczytu i zapisu
+%description -l pl.UTF-8
+Net_Socket to klasa z interfejsem do gniazd TCP. UmoÅ¼liwia operacje
+blokujÄ…ce i nieblokujÄ…ce, z rÃ³Å¼nymi trybami odczytu i zapisu
 (bajtowym, blokowym, liniowym i specjalnymi formatami, jak bajty w
-kolejno¶ci adresów sieciowych).
+kolejnoÅ›ci adresÃ³w sieciowych).
 
 Ta klasa ma w PEAR status: %{_status}.
 
