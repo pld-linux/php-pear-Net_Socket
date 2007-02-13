@@ -4,7 +4,7 @@
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - network socket interface
-Summary(pl.UTF-8):   %{_pearname} - interfejs gniazd sieciowych
+Summary(pl.UTF-8):	%{_pearname} - interfejs gniazd sieciowych
 Name:		php-pear-%{_pearname}
 Version:	1.0.6
 Release:	4
