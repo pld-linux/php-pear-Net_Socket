@@ -7,7 +7,7 @@ Summary:	%{_pearname} - network socket interface
 Summary(pl.UTF-8):	%{_pearname} - interfejs gniazd sieciowych
 Name:		php-pear-%{_pearname}
 Version:	1.0.8
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
