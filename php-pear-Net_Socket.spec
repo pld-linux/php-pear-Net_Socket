@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Net_Socket
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - network socket interface
 Summary(pl.UTF-8):	%{pearname} - interfejs gniazd sieciowych
 Name:		php-pear-%{pearname}
